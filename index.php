@@ -1,12 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>RRR</title>
-</head>
-<body bgcolor="red">
-
-</body>
-</html>
 <?php
 session_start();
 
