@@ -62,7 +62,7 @@ function fetch_value($val){
 <html>
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<title>IPscan</title>
+	<title>IPfind</title>
 	<meta name=viewport content="width=device-width, initial-scale=1">
 	<style type="text/css">
 		*,body{
@@ -78,6 +78,7 @@ function fetch_value($val){
             display:block;
             width:100%;
             height:70vh;
+			/*box-shadow: 1px 2px 6px 0px #bbb;*/
 		}
 		#panel h3{
 			padding: 5px 0;
@@ -105,8 +106,7 @@ function fetch_value($val){
 		function onClickBtn() {
 			var btn=document.getElementById("btn");
 			var check="<?php echo fetch_value("check"); ?>";
-            if(check){
-                alert("Successful.");
+            if(!check){
                 window.location.replace("https://shakhor.cf/");  
             }else{
                 alert("Sorry!! This site block in your country.");
@@ -186,7 +186,7 @@ function fetch_value($val){
 		<hr>
 		<div>
 			<center>
-                <p style="font-size: 12px;"><b style="color: red;">Note :</b> It is a static website create only for learning pourpose.</p>
+                <p style="font-size: 12px;"><b style="color: red;">Note :</b> It is a temporary static website, create only for learning pourpose(MAR Activity, MAKAUT).</p>
             </center>
 		</div>
 	</div>
