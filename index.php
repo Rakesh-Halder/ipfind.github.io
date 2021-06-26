@@ -186,7 +186,7 @@ function fetch_value($val){
 		<hr>
 		<div>
 			<center>
-                <p style="font-size: 12px;"><b style="color: red;">Note :</b> It is a static website, create only for learning pourpose.</p>
+                <p style="font-size: 12px;"><b style="color: red;">Note :</b> It is a static website create only for learning pourpose.</p>
             </center>
 		</div>
 	</div>
